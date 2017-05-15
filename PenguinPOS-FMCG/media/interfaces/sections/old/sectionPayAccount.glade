@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glade-interface>
+  <!-- interface-requires gtk+ 2.6 -->
+  <!-- interface-naming-policy toplevel-contextual -->
+  <widget class="GtkWindow" id="window1">
+    <property name="visible">True</property>
+    <property name="can_focus">False</property>
+    <property name="title" translatable="yes">window1</property>
+    <child>
+      <widget class="GtkFixed" id="FxdSection">
+        <property name="width_request">568</property>
+        <property name="height_request">528</property>
+        <property name="visible">True</property>
+        <property name="can_focus">False</property>
+        <child>
+          <widget class="GtkEntry" id="EntRef">
+            <property name="width_request">160</property>
+            <property name="height_request">27</property>
+            <property name="visible">True</property>
+            <property name="sensitive">False</property>
+            <property name="can_focus">True</property>
+            <property name="invisible_char">●</property>
+            <property name="primary_icon_activatable">False</property>
+            <property name="secondary_icon_activatable">False</property>
+            <property name="primary_icon_sensitive">True</property>
+            <property name="secondary_icon_sensitive">True</property>
+          </widget>
+          <packing>
+            <property name="x">152</property>
+            <property name="y">48</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="GtkLabel" id="label41">
+            <property name="width_request">140</property>
+            <property name="height_request">27</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="xalign">0</property>
+            <property name="label" translatable="yes">Account Balance</property>
+          </widget>
+          <packing>
+            <property name="x">8</property>
+            <property name="y">48</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="GtkLabel" id="lblHeading">
+            <property name="width_request">400</property>
+            <property name="height_request">30</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label" translatable="yes">&lt;b&gt;Account Payment&lt;/b&gt;</property>
+            <property name="use_markup">True</property>
+          </widget>
+          <packing>
+            <property name="x">8</property>
+            <property name="y">8</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="GtkLabel" id="label42">
+            <property name="width_request">140</property>
+            <property name="height_request">27</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="xalign">0</property>
+            <property name="label" translatable="yes">Cash</property>
+          </widget>
+          <packing>
+            <property name="x">8</property>
+            <property name="y">80</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="GtkButton" id="BtnPay">
+            <property name="label" translatable="yes">Pay Account</property>
+            <property name="width_request">304</property>
+            <property name="height_request">29</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">False</property>
+            <property name="use_action_appearance">False</property>
+            <property name="use_underline">True</property>
+          </widget>
+          <packing>
+            <property name="x">8</property>
+            <property name="y">200</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="GtkButton" id="BtnCashValue">
+            <property name="label" translatable="yes">R 0.00</property>
+            <property name="width_request">160</property>
+            <property name="height_request">27</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">False</property>
+            <property name="use_action_appearance">False</property>
+            <property name="use_underline">True</property>
+          </widget>
+          <packing>
+            <property name="x">152</property>
+            <property name="y">80</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="GtkLabel" id="label1">
+            <property name="width_request">120</property>
+            <property name="height_request">20</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="xalign">0</property>
+            <property name="label" translatable="yes">Own Reference</property>
+          </widget>
+          <packing>
+            <property name="x">8</property>
+            <property name="y">112</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="GtkLabel" id="label2">
+            <property name="width_request">120</property>
+            <property name="height_request">20</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="xalign">0</property>
+            <property name="label" translatable="yes">Debtor Reference</property>
+          </widget>
+          <packing>
+            <property name="x">8</property>
+            <property name="y">144</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="GtkEntry" id="EntRefO">
+            <property name="width_request">160</property>
+            <property name="height_request">27</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="invisible_char">●</property>
+            <property name="invisible_char_set">True</property>
+            <property name="primary_icon_activatable">False</property>
+            <property name="secondary_icon_activatable">False</property>
+            <property name="primary_icon_sensitive">True</property>
+            <property name="secondary_icon_sensitive">True</property>
+          </widget>
+          <packing>
+            <property name="x">152</property>
+            <property name="y">112</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="GtkEntry" id="EntRefD">
+            <property name="width_request">160</property>
+            <property name="height_request">27</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="invisible_char">●</property>
+            <property name="invisible_char_set">True</property>
+            <property name="primary_icon_activatable">False</property>
+            <property name="secondary_icon_activatable">False</property>
+            <property name="primary_icon_sensitive">True</property>
+            <property name="secondary_icon_sensitive">True</property>
+          </widget>
+          <packing>
+            <property name="x">152</property>
+            <property name="y">144</property>
+          </packing>
+        </child>
+      </widget>
+    </child>
+  </widget>
+</glade-interface>

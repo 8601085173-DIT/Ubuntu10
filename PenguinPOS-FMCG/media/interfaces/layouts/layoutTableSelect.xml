@@ -1,0 +1,25 @@
+<Layout name="TableSelect" title="Select Table">
+	<Titlebar>
+		<X>0</X>
+		<Y>0</Y>
+		<Visible>True</Visible>
+	</Titlebar>
+
+	<MainMenu>
+		<X>0</X>
+		<Y>80</Y>
+		<Visible>True</Visible>
+	</MainMenu>
+
+	<TableSelect>
+		<X>151</X>
+		<Y>10</Y>
+		<Visible>False</Visible>
+	</TableSelect>
+
+	<Keypad>
+		<X>614</X>
+		<Y>72</Y>
+		<Visible>False</Visible>
+	</Keypad>
+</Layout>

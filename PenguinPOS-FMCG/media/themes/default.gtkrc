@@ -1,0 +1,261 @@
+style "LabelDefault"
+{
+	font_name = "Verdana Bold 8"
+	fg[NORMAL] = "#FFFFFF"
+}
+
+style "TimeFont"
+{
+	font_name = "Verdana Bold 12"
+	fg[NORMAL] = "#FFFFFF"
+}
+
+style "TinyFont"
+{
+	font_name = "Verdana 9"
+}
+
+style "ItemPageFont"
+{
+	font_name = "Verdana 14"
+}
+
+style "SmallFont"
+{
+	font_name = "Verdana 18"
+}
+
+style "NormalFont"
+{
+	font_name = "Verdana 20"
+}
+
+style "LargeFont"
+{
+	font_name = "Verdana 21"
+}
+
+style "LargeFont2"
+{
+	font_name = "Verdana 22"
+}
+
+style "HugeFont"
+{
+	font_name = "Verdana 24"
+}
+
+style "LCDFont"
+{
+	font_name = "LCD2 Bold 45"
+}
+
+style "LCDBig"
+{
+	font_name = "LCD2 Bold 35"
+}
+
+style "LCDBig2"
+{
+	font_name = "LCD2 Bold 25"
+}
+
+style "MSFont"
+{
+	font_name = "Courier Bold 10"
+}
+
+style "ItemListStyle"
+{
+	font_name = "Courier Bold 10"
+	GtkTreeView::expander-size = 18
+}
+
+style "MSBigFont"
+{
+	font_name = "Courier Bold 12"
+}
+
+style "StockFont"
+{
+	font_name = "Comic Sans MS 13"
+}
+
+style "SubmitButton"
+{
+	bg[NORMAL] = "#14053C"
+	bg[ACTIVE] = "#009B00"
+	bg[PRELIGHT] = "#00FF00"
+}
+
+style "CancelButton"
+{
+	bg[NORMAL] = "#14053C"
+	bg[ACTIVE] = "#9B0000"
+	bg[PRELIGHT] = "#FF0000"
+}
+
+style "HoldButton"
+{
+	bg[NORMAL] = "#14053C"
+	bg[ACTIVE] = "#00009B"
+	bg[PRELIGHT] = "#0000FF"
+}
+
+style "DefaultBG"
+{
+	bg[ACTIVE] =   "#005F7D"
+	bg[NORMAL] =   "#0073AF"
+	bg[PRELIGHT] = "#00AADC"
+}
+
+style "MenuButtonsBG"
+{
+	bg[ACTIVE] =   "#005F7D"
+	bg[NORMAL] =   "#1F2896"
+	bg[PRELIGHT] = "#00AADC"
+}
+
+style "MenuButtonsBG1"
+{
+	bg[ACTIVE] =   "#005F7D"
+	bg[NORMAL] =   "#480d76"
+	bg[PRELIGHT] = "#00AADC"
+}
+
+style "FoodDrinkModButtons"
+{
+	bg[ACTIVE] =   "#050e44"
+	bg[NORMAL] =   "#14053C"
+	bg[PRELIGHT] = "#0000FF"
+}
+
+style "NoButton2"
+{
+	bg[NORMAL] = "#911916"
+	bg[ACTIVE] = "#911916"
+	bg[PRELIGHT] = "#911916"
+}
+
+style "YesButton2"
+{
+	bg[NORMAL] = "#a81b18"
+	bg[ACTIVE] = "#a81b18"
+	bg[PRELIGHT] = "#a81b18"
+}
+
+style "BG"
+{
+	bg[NORMAL] = "#0073AF"
+}
+
+style "WideScrollbar"
+{
+	GtkScrollbar::slider-width = 25
+}
+
+class		"GtkLabel"			style	"LabelDefault"
+class		"GtkButton"			style	"DefaultBG"
+class		"GtkDialog"			style	"BG"
+class		"GtkScrollbar"			style	"WideScrollbar"
+
+# Special buttons' styles
+widget		"*.BtnSubmit"			style	"SubmitButton"
+#widget		"*.BtnOrder"			style	"SubmitButton"
+widget		"*.BtnUpdate"			style	"SubmitButton"
+widget		"*.BtnFinish"			style	"SubmitButton"
+widget		"*.BtnOK"			style	"SubmitButton"
+widget		"*.BtnKeyboard"			style	"SubmitButton"
+widget		"*.BtnYes"			style	"SubmitButton"
+widget		"*.BtnCancel"			style	"CancelButton"
+widget		"*.BtnNo"			style	"CancelButton"
+widget		"*.BtnHold"			style	"HoldButton"
+widget		"*.BtnLookup"			style	"HoldButton"
+widget		"*.BtnMenu1"			style	"MenuButtonsBG"
+widget		"*.BtnMenu2"			style	"MenuButtonsBG1"
+widget		"*.BtnMenu3"			style	"MenuButtonsBG"
+widget		"*.BtnMenu4"			style	"MenuButtonsBG1"
+widget		"*.BtnMenu5"			style	"MenuButtonsBG"
+widget		"*.BtnMenu6"			style	"MenuButtonsBG1"
+widget		"*.BtnMenu7"			style	"MenuButtonsBG"
+widget		"*.BtnMenu8"			style	"MenuButtonsBG1"
+widget		"*.BtnMenu9"			style	"MenuButtonsBG"
+widget		"*.BtnMenu10"			style	"MenuButtonsBG1"
+widget		"*.BtnMenu11"			style	"MenuButtonsBG"
+widget		"*.BtnMenu12"			style	"MenuButtonsBG1"
+widget		"*.BtnMenu13"			style	"MenuButtonsBG"
+widget		"*.BtnMenu14"			style	"MenuButtonsBG1"
+widget		"*.BtnMenu15"			style	"MenuButtonsBG"
+widget		"*.BtnMenu16"			style	"MenuButtonsBG1"
+widget		"*.BtnMenu17"			style	"MenuButtonsBG"
+widget		"*.BtnMenu18"			style	"MenuButtonsBG1"
+widget		"*.BtnFood"			style	"FoodDrinkModButtons"
+widget		"*.BtnDrinks"			style	"FoodDrinkModButtons"
+widget		"*.BtnModifiers"		style	"FoodDrinkModButtons"
+widget		"*.BtnNoAuth"			style	"NoButton2"
+widget		"*.BtnAuth"			style	"YesButton2"
+
+# Special buttons' label fonts
+widget		"*.BtnTable*.GtkLabel"		style	"TinyFont"
+widget		"*.BtnSubmit.GtkLabel"		style	"LargeFont"
+widget		"*.BtnItemRet.GtkLabel"		style	"LargeFont"
+widget		"*.BtnItemExch.GtkLabel"        style	"LargeFont"
+widget		"*.BtnOrder.GtkLabel"		style	"LargeFont"
+widget		"*.BtnUpdate.GtkLabel"		style	"LargeFont"
+widget		"*.BtnFinish.GtkLabel"		style	"LargeFont"
+widget		"*.BtnOK.GtkLabel"		style	"LargeFont"
+widget		"*.BtnYes.GtkLabel"		style	"LargeFont"
+widget		"*.BtnCancel.GtkLabel"		style	"LargeFont"
+widget		"*.BtnNo.GtkLabel"		style	"LargeFont"
+widget		"*.BtnHold.GtkLabel"		style	"LargeFont"
+widget		"*.BtnLookup*.GtkLabel"		style	"LargeFont"
+widget		"*.BtnVoid*.GtkLabel"		style	"LargeFont"
+widget		"*.BtnChange*.GtkLabel"		style	"LargeFont"
+widget		"*.BtnAddOrder.GtkLabel"	style	"LargeFont"
+widget		"*.BtnSplitBill.GtkLabel"	style	"LargeFont"
+widget		"*.BtnFinishTable.GtkLabel"	style	"LargeFont"
+widget		"*.BtnPrintBill.GtkLabel"	style	"LargeFont"
+widget		"*.BtnFood.GtkLabel"		style	"TimeFont"		# In the menu bar
+widget		"*.BtnDrinks.GtkLabel"		style	"TimeFont"		# In the menu bar
+widget		"*.BtnModifiers.GtkLabel"	style	"TimeFont"		# In the menu bar
+
+# Specific label fonts
+widget		"*.LblDateTime"			style	"TimeFont"		# In the title bar
+widget		"*.LblDateTime2"			style	"TimeFont"		# In the title bar
+widget		"*.LblTimeout"			style	"TimeFont"		# In the title bar
+widget		"*.LblOnline"			style	"TimeFont"		# In the title bar
+widget		"*.LblUser"			style	"TimeFont"		# In the title bar
+widget		"*.LblFood"			style	"TimeFont"		# In the menu bar
+widget		"*.LblUserText"			style	"TimeFont"		# In the title bar
+#widget		"*.LblDisplay"			style	"LCDFont"		# On the keypad
+widget		"*.LblDisplay"			style	"LargeFont"		# On the keypad
+widget		"*.LblItemPageDisplay"		style	"ItemPageFont"		# On the keypad
+widget		"*.LblItemPageDisplay2"		style	"ItemPageFont"		# On the keypad
+widget		"*.LblPrice"			style	"LargeFont"		# On the item list
+widget		"*.LblSection"			style	"SmallFont"		# In the title bar
+widget		"*.LblTable"			style	"NormalFont"	        # On the item list
+widget		"*.LblTitle"			style	"LargeFont"		# Various places
+widget		"*.LblQty"			style	"LargeFont"		# Various places
+widget		"*.lblViewItem"			style	"LCDFont"		# Various places
+widget		"*.TVwItemList"			style	"ItemListStyle"	        # On the item list
+widget		"*.LblTendered*"		style	"LargeFont2"		# In the "Finish Table" section
+widget		"*.LblDue*"			style	"LargeFont2"		# In the "Finish Table" section
+widget		"*.LblStillDue*"		style	"LargeFont2"		# In the "Finish Table" section
+widget		"*.LblTenderDesc*"		style	"MSFont"		# In the "Finish Table" section
+widget		"*.LblTenderValue*"		style	"MSFont"		# In the "Finish Table" section
+widget		"*.LblCash"			style	"TimeFont"		# In the finish table section
+widget		"*.LblCheque"			style	"TimeFont"		# In the finish table section
+widget		"*.LblAccount"			style	"TimeFont"		# In the finish table section
+widget		"*.LblCCard"			style	"TimeFont"		# In the finish table section
+widget		"*.LblDiscount"			style	"TimeFont"		# In the finish table section
+widget		"*.LblMessage"			style	"TimeFont"		# On the keypad
+widget		"*.LblMessage1"			style	"TimeFont"		# On the keypad
+widget		"*.LblAuthLogin"		style	"LargeFont"		# On the keypad
+
+widget		"DlgBase.*.LblMessage"	        style	"MSBigFont"		# Message labels on dialog
+widget		"*.BtnChangeBPrice.GtkLabel"	style	"TinyFont"
+widget		"*.BtnChangeTPrice.GtkLabel"	style	"TinyFont"
+widget		"*.BtnDiscountItem.GtkLabel"	style	"TinyFont"
+widget		"*.BtnItemExch.GtkLabel"	style	"TinyFont"
+widget		"*.BtnVoidSale.GtkLabel"	style	"TinyFont"
+

@@ -1,0 +1,4 @@
+#!/bin/bash
+mysql -uPenguinPOS -ppenpos Terminal_FMCG < /home/pos/sync-registration.sql
+exit
+

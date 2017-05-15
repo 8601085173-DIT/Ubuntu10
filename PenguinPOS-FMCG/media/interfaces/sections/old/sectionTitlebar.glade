@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glade-interface>
+  <!-- interface-requires gtk+ 2.6 -->
+  <!-- interface-naming-policy toplevel-contextual -->
+  <widget class="GtkWindow" id="window1">
+    <property name="visible">True</property>
+    <property name="can_focus">False</property>
+    <property name="title" translatable="yes">window1</property>
+    <child>
+      <widget class="GtkFixed" id="FxdSection">
+        <property name="width_request">1024</property>
+        <property name="height_request">70</property>
+        <property name="visible">True</property>
+        <property name="can_focus">False</property>
+        <child>
+          <widget class="GtkLabel" id="LblTimeout">
+            <property name="width_request">208</property>
+            <property name="height_request">32</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="xalign">1</property>
+            <property name="xpad">15</property>
+            <property name="label" translatable="yes">0 sec</property>
+          </widget>
+          <packing>
+            <property name="x">816</property>
+            <property name="y">40</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="GtkLabel" id="LblSection">
+            <property name="width_request">472</property>
+            <property name="height_request">32</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label" translatable="yes">&lt;b&gt;Section&lt;/b&gt;</property>
+            <property name="use_markup">True</property>
+          </widget>
+          <packing>
+            <property name="x">280</property>
+            <property name="y">40</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="GtkLabel" id="LblUser">
+            <property name="width_request">240</property>
+            <property name="height_request">32</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="xalign">0</property>
+            <property name="xpad">15</property>
+            <property name="label" translatable="yes">User name (waiter #)</property>
+          </widget>
+          <packing>
+            <property name="x">230</property>
+            <property name="y">35</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="GtkLabel" id="LblDateTime">
+            <property name="width_request">208</property>
+            <property name="height_request">20</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="xalign">1</property>
+            <property name="xpad">15</property>
+            <property name="use_markup">True</property>
+          </widget>
+          <packing>
+            <property name="x">816</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="GtkLabel" id="LblOnline">
+            <property name="width_request">88</property>
+            <property name="height_request">32</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="xalign">0</property>
+            <property name="xpad">15</property>
+            <property name="label" translatable="yes">&lt;b&gt;Online&lt;/b&gt;</property>
+            <property name="use_markup">True</property>
+          </widget>
+          <packing>
+            <property name="x">230</property>
+            <property name="y">8</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="GtkLabel" id="LblTitle">
+            <property name="width_request">632</property>
+            <property name="height_request">40</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label" translatable="yes">Marconi PenguinPOS - &lt;b&gt;FMCG&lt;/b&gt;</property>
+            <property name="use_markup">True</property>
+          </widget>
+          <packing>
+            <property name="x">260</property>
+            <property name="y">15</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="GtkImage" id="imgOnline">
+            <property name="width_request">24</property>
+            <property name="height_request">24</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="stock">gtk-yes</property>
+          </widget>
+          <packing>
+            <property name="x">216</property>
+            <property name="y">12</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="GtkImage" id="imgCashDrop">
+            <property name="width_request">24</property>
+            <property name="height_request">24</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="stock">gtk-no</property>
+          </widget>
+          <packing>
+            <property name="x">216</property>
+            <property name="y">40</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="GtkLabel" id="LblDateTime2">
+            <property name="width_request">208</property>
+            <property name="height_request">20</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="xalign">1</property>
+            <property name="xpad">15</property>
+            <property name="use_markup">True</property>
+          </widget>
+          <packing>
+            <property name="x">816</property>
+            <property name="y">20</property>
+          </packing>
+        </child>
+      </widget>
+    </child>
+  </widget>
+</glade-interface>

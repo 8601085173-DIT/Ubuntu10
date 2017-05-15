@@ -1,0 +1,19 @@
+______________________________________________________
+^^FONT_HEADER^^^^COMPANY^^^^FONT_RESET^^
+^^FONT_7X9_W^^^^BRANCH^^
+^^FONT_RESET^^^^FONT_7X9^^______________________________________________________
+^^DATE^^  ^^TIME^^
+______________________________________________________
+^^FONT_7X9_W^^Cash Drop
+^^FONT_RESET^^^^FONT_7X9^^By ^^ADMIN^^ (User ID ^^ADMINID^^)
+Current User is ^^USER^^ (User ID ^^USERID^^)
+______________________________________________________
+^^FONT_7X9_W^^Cash Drop
+^^FONT_RESET^^^^FONT_7X9^^
+Cash        : ^^CASH^^
+Cheque      : ^^CHEQUE^^
+Credit Card : ^^CREDIT^^
+
+______________________________________________________
+
+^^FEED_8^^^^CUT^^

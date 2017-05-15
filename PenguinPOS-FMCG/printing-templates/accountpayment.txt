@@ -1,0 +1,22 @@
+______________________________________________________
+^^FONT_HEADER^^^^COMPANY^^^^FONT_RESET^^
+^^FONT_7X9_W^^^^BRANCH^^
+^^FONT_RESET^^^^FONT_7X9^^______________________________________________________
+^^DATE^^  ^^TIME^^
+Tax Invoice No:  ^^RCPT_NO^^
+Reference : ^^REF_NO^^
+Vat No.:         ^^VATNUM^^
+Tel  : ^^TEL^^  Fax: ^^FAX^^
+Till : ^^TABLE^^  Cashier : ^^WAITER^^
+______________________________________________________
+^^FONT_7X9_W^^ACCOUNT PAYMENT^^FONT_7X9^^
+______________________________________________________
+^^FONT_RESET^^^^FONT_7X9^^Account Number : ^^ACCOUNT_NO^^
+Account Payment Amount: ^^CASH^^
+Account Balance after payment: ^^ACCOUNT_BALANCE^^
+______________________________________________________
+
+^^FONT_RESET^^^^FONT_7X9^^______________________________________________________
+                                  Thank you for the payment
+                                   
+^^FEED_10^^^^CUT^^

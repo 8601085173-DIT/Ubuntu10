@@ -1,0 +1,16 @@
+______________________________________________________
+^^FONT_HEADER^^^^COMPANY^^^^FONT_RESET^^
+^^FONT_7X9_W^^^^BRANCH^^
+^^FONT_RESET^^^^FONT_7X9^^______________________________________________________
+^^DATE^^  ^^TIME^^
+Vat No.:         ^^VATNUM^^
+Tel  : ^^TEL^^  Fax: ^^FAX^^
+Till : ^^TABLE^^  Cashier : ^^WAITER^^
+^^FONT_RESET^^^^FONT_7X9_W^^     Change Voucher ^^FONT_RESET^^^^FONT_7X9^^
+______________________________________________________
+______________________________________________________
+^^FONT_RESET^^^^FONT_7X9_W^^^^VOUCHER^^^^FONT_RESET^^^^FONT_7X9^^______________________________________________________
+^^FONT_RESET^^^^FONT_7X9^^______________________________________________________
+                                  Have a Nice Day
+                                     Drive Safely
+^^FEED_10^^^^CUT^^

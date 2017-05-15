@@ -1,0 +1,49 @@
+<Layout name="Home" title="Home">
+	<Titlebar>
+		<X>0</X>
+		<Y>0</Y>
+		<Visible>True</Visible>
+	</Titlebar>
+
+	<MainMenu>
+		<X>0</X>
+		<Y>80</Y>
+		<Visible>True</Visible>
+	</MainMenu>
+
+	<Logo>
+		<X>290</X>
+		<Y>124</Y>
+		<Visible>True</Visible>
+	</Logo>
+
+	<ItemPage>
+		<X>141</X>
+		<Y>74</Y>
+		<Visible>False</Visible>
+	</ItemPage>
+
+	<ItemList>
+		<X>724</X>
+		<Y>67</Y>
+		<Visible>False</Visible>
+	</ItemList>
+
+	<Menu>
+		<X>136</X>
+		<Y>596</Y>
+		<Visible>False</Visible>
+	</Menu>
+
+	<Keyboard>
+		<X>130</X>
+		<Y>150</Y>
+		<Visible>False</Visible>
+	</Keyboard>
+
+	<PasswordLogin>
+		<X>274</X>
+		<Y>588</Y>
+		<Visible>False</Visible>
+	</PasswordLogin>
+</Layout>

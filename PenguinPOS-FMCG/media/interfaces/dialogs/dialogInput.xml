@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<InputDialog>
+	<x>312</x>
+	<y>234</y>
+	<width>400</width>
+	<background>media/images/backgrounds/dialogs/yesno.png</background>
+</InputDialog>

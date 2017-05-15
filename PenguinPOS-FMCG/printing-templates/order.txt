@@ -1,0 +1,15 @@
+===================
+^^FONT_EMPH_H^^WTR: ^^WAITER^^
+^^FONT_EMPH_W^^TBL: ^^TABLE^^
+^^FONT_RESET^^COV: ^^COVERS^^
+LOC: ^^LOCATION^^
+^^FONT_EMPH_W^^
+^^DATE^^
+^^TIME^^
+================^^FONT_RESET^^ ^^FONT_7X9_H^^
+^^ITEMS^^
+--------------------------------
+
+
+^^FEED_3^^
+^^CUT^^

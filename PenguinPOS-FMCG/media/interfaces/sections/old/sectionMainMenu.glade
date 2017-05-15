@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE glade-interface SYSTEM "glade-2.0.dtd">
+<!--*- mode: xml -*-->
+<glade-interface>
+  <widget class="GtkWindow" id="window1">
+    <property name="width_request">1024</property>
+    <property name="visible">True</property>
+    <property name="title">window1</property>
+    <child>
+      <widget class="GtkFixed" id="FxdSection">
+        <property name="visible">True</property>
+        <child>
+          <widget class="GtkButton" id="BtnLogout">
+            <property name="width_request">96</property>
+            <property name="height_request">72</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="response_id">0</property>
+            <child>
+              <widget class="GtkImage" id="image23">
+                <property name="visible">True</property>
+                <property name="pixbuf">../../images/buttons/sections/logout.png</property>
+              </widget>
+            </child>
+          </widget>
+          <packing>
+            <property name="x">8</property>
+            <property name="y">608</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="GtkButton" id="BtnAddOrder">
+            <property name="width_request">10</property>
+            <property name="height_request">10</property>
+            <property name="can_focus">True</property>
+            <property name="label" translatable="yes"> </property>
+            <property name="response_id">0</property>
+          </widget>
+          <packing>
+            <property name="x">18</property>
+            <property name="y">534</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="GtkButton" id="BtnEndShift">
+            <property name="width_request">96</property>
+            <property name="height_request">72</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="response_id">0</property>
+            <child>
+              <widget class="GtkImage" id="image16">
+                <property name="visible">True</property>
+                <property name="pixbuf">../../images/buttons/sections/endshift.png</property>
+              </widget>
+            </child>
+          </widget>
+          <packing>
+            <property name="x">8</property>
+            <property name="y">524</property>
+          </packing>
+        </child>
+      </widget>
+    </child>
+  </widget>
+</glade-interface>

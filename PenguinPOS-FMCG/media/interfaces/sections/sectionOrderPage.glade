@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE glade-interface SYSTEM "glade-2.0.dtd">
+<!--Generated with glade3 3.4.0 on Sat May 24 20:59:13 2008 
+	Version: 3.0.1
+	Date: Wed Jan 31 03:38:44 2007
+	User: data
+	Host: yoda
+-->
+<glade-interface>
+  <widget class="GtkWindow" id="window1">
+    <property name="visible">True</property>
+    <property name="title">window1</property>
+    <child>
+      <widget class="GtkFixed" id="FxdSection">
+        <property name="width_request">613</property>
+        <property name="height_request">698</property>
+        <property name="visible">True</property>
+        <child>
+          <widget class="GtkButton" id="BtnChangeTable">
+            <property name="width_request">208</property>
+            <property name="height_request">120</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="label" translatable="yes">Table name</property>
+            <property name="use_underline">True</property>
+            <property name="response_id">0</property>
+          </widget>
+          <packing>
+            <property name="x">112</property>
+            <property name="y">8</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="GtkLabel" id="label2">
+            <property name="width_request">112</property>
+            <property name="height_request">120</property>
+            <property name="visible">True</property>
+            <property name="label" translatable="yes">&lt;b&gt;Table:&lt;/b&gt;</property>
+            <property name="use_markup">True</property>
+          </widget>
+          <packing>
+            <property name="y">8</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="GtkButton" id="BtnVoid">
+            <property name="width_request">176</property>
+            <property name="height_request">120</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="label" translatable="yes">Void Item</property>
+            <property name="use_underline">True</property>
+            <property name="response_id">0</property>
+          </widget>
+          <packing>
+            <property name="x">432</property>
+            <property name="y">8</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="GtkLabel" id="LblVoid">
+            <property name="width_request">112</property>
+            <property name="height_request">120</property>
+            <property name="visible">True</property>
+            <property name="label" translatable="yes">&lt;b&gt;Void:&lt;/b&gt;</property>
+            <property name="use_markup">True</property>
+          </widget>
+          <packing>
+            <property name="x">320</property>
+            <property name="y">8</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="GtkButton" id="BtnChangeWaiter">
+            <property name="width_request">208</property>
+            <property name="height_request">120</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="label" translatable="yes">Waiter name</property>
+            <property name="use_underline">True</property>
+            <property name="response_id">0</property>
+          </widget>
+          <packing>
+            <property name="x">112</property>
+            <property name="y">144</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="GtkLabel" id="label1">
+            <property name="width_request">112</property>
+            <property name="height_request">120</property>
+            <property name="visible">True</property>
+            <property name="label" translatable="yes">&lt;b&gt;Waiter:&lt;/b&gt;</property>
+            <property name="use_markup">True</property>
+          </widget>
+          <packing>
+            <property name="y">144</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="GtkButton" id="BtnVoidMultiple">
+            <property name="width_request">176</property>
+            <property name="height_request">120</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="label" translatable="yes">Void
+Multiple</property>
+            <property name="use_underline">True</property>
+            <property name="response_id">0</property>
+          </widget>
+          <packing>
+            <property name="x">432</property>
+            <property name="y">144</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="GtkButton" id="BtnVoidAll">
+            <property name="width_request">176</property>
+            <property name="height_request">120</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="label" translatable="yes">Void All</property>
+            <property name="use_underline">True</property>
+            <property name="response_id">0</property>
+          </widget>
+          <packing>
+            <property name="x">432</property>
+            <property name="y">280</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="GtkButton" id="BtnAddOrder">
+            <property name="width_request">180</property>
+            <property name="height_request">120</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="label" translatable="yes">Add Order</property>
+            <property name="use_underline">True</property>
+            <property name="response_id">0</property>
+          </widget>
+          <packing>
+            <property name="x">407</property>
+            <property name="y">550</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="GtkButton" id="BtnFinishTable">
+            <property name="width_request">180</property>
+            <property name="height_request">120</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="label" translatable="yes">Finish
+Table</property>
+            <property name="use_underline">True</property>
+            <property name="response_id">0</property>
+          </widget>
+          <packing>
+            <property name="x">600</property>
+            <property name="y">550</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="GtkButton" id="BtnPrintBill">
+            <property name="width_request">180</property>
+            <property name="height_request">120</property>
+            <property name="visible">True</property>
+            <property name="label" translatable="yes">Print Bill</property>
+            <property name="response_id">0</property>
+          </widget>
+          <packing>
+            <property name="x">24</property>
+            <property name="y">550</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="GtkButton" id="BtnSplitBill">
+            <property name="width_request">180</property>
+            <property name="height_request">120</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="label" translatable="yes">Split Bill</property>
+            <property name="use_underline">True</property>
+            <property name="response_id">0</property>
+          </widget>
+          <packing>
+            <property name="x">216</property>
+            <property name="y">550</property>
+          </packing>
+        </child>
+      </widget>
+    </child>
+  </widget>
+</glade-interface>

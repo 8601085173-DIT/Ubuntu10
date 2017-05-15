@@ -1,0 +1,2 @@
+echo ---test----
+ls /dev/disk/by-uuid/ > prep.tmp

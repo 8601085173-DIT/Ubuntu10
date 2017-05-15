@@ -1,0 +1,32 @@
+<Layout name="Payout" title="Payout">
+	<Titlebar>
+		<X>0</X>
+		<Y>0</Y>
+		<Visible>True</Visible>
+	</Titlebar>
+
+	<Payout>
+		<X>560</X>
+		<Y>386</Y>
+		<Visible>True</Visible>
+	</Payout>
+
+	<Keyboard>
+		<X>130</X>
+		<Y>150</Y>
+		<Visible>False</Visible>
+	</Keyboard>
+
+	<Logo>
+		<X>100</X>
+		<Y>124</Y>
+		<Visible>false</Visible>
+	</Logo>
+
+	<AccountLookup>
+		<X>0</X>
+		<Y>80</Y>
+		<Visible>True</Visible>
+	</AccountLookup>
+
+</Layout>

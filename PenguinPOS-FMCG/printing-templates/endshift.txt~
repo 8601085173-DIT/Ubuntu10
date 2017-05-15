@@ -1,0 +1,26 @@
+^^FONT_RESET^^^^FONT_7X9^^                   End Shift
+
+Cashier : ^^USER^^ ( User ID ^^USERID^^ )
+Date    : ^^DATE^^  ^^TIME^^
+
+
+^^CASH^^
+^^CREDIT^^^^CHEQUE^^^^ACCOUNT^^
+^^VOUCHERRED^^
+                                          ----------
+^^TOTALPAYMENT^^
+                                          ----------
+^^VOUCHERCRE^^
+                                          ----------
+^^TOTALTURN^^
+                                          ----------
+
+^^VOIDS^^
+
+^^PAYOUTS^^
+
+^^SALECOUNT^^
+^^ITEMCOUNT^^
+^^AVGCOUNT^^
+
+^^FEED_10^^^^CUT^^

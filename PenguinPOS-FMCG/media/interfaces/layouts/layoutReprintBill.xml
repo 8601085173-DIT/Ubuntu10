@@ -1,0 +1,31 @@
+<Layout name="ReprintBill" title="Reprint Bill">
+	<Titlebar>
+		<X>0</X>
+		<Y>0</Y>
+		<Visible>True</Visible>
+	</Titlebar>
+
+	<MainMenu>
+		<X>0</X>
+		<Y>80</Y>
+		<Visible>True</Visible>
+	</MainMenu>
+
+	<ReprintBill>
+		<X>160</X>
+		<Y>70</Y>
+		<Visible>True</Visible>
+	</ReprintBill>
+
+	<ItemList>
+		<X>575</X>
+		<Y>70</Y>
+		<Visible>True</Visible>
+	</ItemList>
+
+	<BottomMenu>
+		<X>111</X>
+		<Y>593</Y>
+		<Visible>True</Visible>
+	</BottomMenu>
+</Layout>

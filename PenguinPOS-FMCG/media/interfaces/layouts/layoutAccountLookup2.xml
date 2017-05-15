@@ -1,0 +1,56 @@
+<Layout name="AccountLookup2" title="Account Lookup2">
+	<Titlebar>
+		<X>0</X>
+		<Y>0</Y>
+		<Visible>True</Visible>
+	</Titlebar>
+
+	<ItemLookup>
+		<X>0</X>
+		<Y>80</Y>
+		<Visible>False</Visible>
+	</ItemLookup>
+
+	<AccountLookup>
+		<X>0</X>
+		<Y>80</Y>
+		<Visible>True</Visible>
+	</AccountLookup>
+
+	<ItemList>
+		<X>575</X>
+		<Y>70</Y>
+		<Visible>True</Visible>
+	</ItemList>
+
+	<ItemDisplay>
+		<X>0</X>
+		<Y>524</Y>
+		<Visible>True</Visible>
+	</ItemDisplay>
+
+	<Functions>
+		<X>10</X>
+		<Y>650</Y>
+		<Visible>True</Visible>
+	</Functions>
+
+	<Keypad>
+		<X>0</X>
+		<Y>75</Y>
+		<Visible>False</Visible>
+	</Keypad>
+
+	<MainMenu>
+		<X>0</X>
+		<Y>80</Y>
+		<Visible>False</Visible>
+	</MainMenu>
+
+	<Menu>
+		<X>5</X>
+		<Y>596</Y>
+		<Visible>True</Visible>
+	</Menu>
+
+</Layout>

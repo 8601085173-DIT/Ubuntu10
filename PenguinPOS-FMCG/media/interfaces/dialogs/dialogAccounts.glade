@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE glade-interface SYSTEM "glade-2.0.dtd">
+<!-- Generated with glade3
+	Version: 3.0.1
+	Date: Wed Mar 28 19:00:16 2007
+	User: data
+	Host: yoda
+-->
+<glade-interface>
+  <widget class="GtkDialog" id="DlgBase">
+    <property name="visible">False</property>
+    <property name="title">VoidReason Dialog</property>
+    <property name="window_position">GTK_WIN_POS_CENTER</property>
+    <property name="type_hint">GDK_WINDOW_TYPE_HINT_DIALOG</property>
+    <property name="skip_taskbar_hint">True</property>
+    <property name="skip_pager_hint">True</property>
+    <property name="decorated">False</property>
+    <child internal-child="vbox">
+      <widget class="GtkVBox" id="dialog-vbox2">
+        <property name="visible">True</property>
+        <child>
+          <widget class="GtkFixed" id="FxdDialog">
+            <property name="visible">True</property>
+            <child>
+              <widget class="GtkImage" id="ImgBackground">
+                <property name="width_request">0</property>
+                <property name="height_request">0</property>
+                <property name="visible">True</property>
+              </widget>
+            </child>
+            <child>
+              <widget class="GtkImage" id="ImgImage">
+                <property name="width_request">72</property>
+                <property name="height_request">64</property>
+                <property name="visible">True</property>
+              </widget>
+              <packing>
+                <property name="y">112</property>
+              </packing>
+            </child>
+            <child>
+              <widget class="GtkImage" id="ImgIcon">
+                <property name="width_request">72</property>
+                <property name="height_request">64</property>
+                <property name="visible">True</property>
+              </widget>
+            </child>
+            <child>
+              <widget class="GtkButton" id="BtnOK">
+                <property name="width_request">80</property>
+                <property name="height_request">72</property>
+                <property name="visible">True</property>
+                <property name="can_focus">True</property>
+                <child>
+                  <widget class="GtkImage" id="image12">
+                    <property name="visible">True</property>
+                    <property name="pixbuf">../../images/buttons/dialogs/yes.png</property>
+                  </widget>
+                </child>
+              </widget>
+              <packing>
+                <property name="x">312</property>
+                <property name="y">224</property>
+              </packing>
+            </child>
+            <child>
+              <widget class="GtkLabel" id="LblTitle">
+                <property name="width_request">320</property>
+                <property name="height_request">64</property>
+                <property name="visible">True</property>
+                <property name="xalign">0.050000</property>
+                <property name="label" translatable="yes">&lt;b&gt;Title&lt;/b&gt;</property>
+                <property name="use_markup">True</property>
+              </widget>
+              <packing>
+                <property name="x">72</property>
+              </packing>
+            </child>
+            <child>
+              <widget class="GtkLabel" id="LblMessage">
+                <property name="width_request">320</property>
+                <property name="height_request">160</property>
+                <property name="visible">True</property>
+                <property name="xalign">0.350000</property>
+                <property name="label" translatable="yes">Message</property>
+                <property name="use_markup">True</property>
+              </widget>
+              <packing>
+                <property name="x">72</property>
+                <property name="y">64</property>
+              </packing>
+            </child>
+            <child>
+              <widget class="GtkButton" id="BtnCancel">
+                <property name="width_request">80</property>
+                <property name="height_request">72</property>
+                <property name="visible">True</property>
+                <child>
+                  <widget class="GtkImage" id="image1">
+                    <property name="visible">True</property>
+                    <property name="pixbuf">../../images/buttons/dialogs/no.png</property>
+                  </widget>
+                </child>
+              </widget>
+              <packing>
+                <property name="x">232</property>
+                <property name="y">224</property>
+              </packing>
+            </child>
+            <child>
+              <widget class="GtkComboBox" id="CmbAccounts">
+                <property name="width_request">200</property>
+                <property name="height_request">72</property>
+                <property name="visible">True</property>
+              </widget>
+              <packing>
+                <property name="y">224</property>
+              </packing>
+            </child>
+          </widget>
+          <packing>
+            <property name="position">2</property>
+          </packing>
+        </child>
+        <child internal-child="action_area">
+          <widget class="GtkHButtonBox" id="dialog-action_area2">
+            <property name="visible">True</property>
+            <property name="layout_style">GTK_BUTTONBOX_END</property>
+          </widget>
+          <packing>
+            <property name="expand">False</property>
+            <property name="pack_type">GTK_PACK_END</property>
+          </packing>
+        </child>
+      </widget>
+    </child>
+  </widget>
+</glade-interface>

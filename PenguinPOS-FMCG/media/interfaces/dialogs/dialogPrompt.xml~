@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<PromptDialog>
+	<x>312</x>
+	<y>234</y>
+	<width>400</width>
+	<background>media/images/backgrounds/yesno.png</background>
+</PromptDialog>

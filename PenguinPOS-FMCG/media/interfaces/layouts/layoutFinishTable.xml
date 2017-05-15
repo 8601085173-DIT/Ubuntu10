@@ -1,0 +1,37 @@
+<Layout name="FinishTable" title="Finish Table">
+	<Titlebar>
+		<X>0</X>
+		<Y>0</Y>
+		<Visible>True</Visible>
+	</Titlebar>
+
+	<MainMenu>
+		<X>0</X>
+		<Y>80</Y>
+		<Visible>True</Visible>
+	</MainMenu>
+
+	<FinishTable>
+		<X>0</X>
+		<Y>80</Y>
+		<Visible>False</Visible>
+	</FinishTable>
+
+	<Functions>
+		<X>0</X>
+		<Y>80</Y>
+		<Visible>False</Visible>
+	</Functions>
+
+	<ItemList>
+		<X>575</X>
+		<Y>70</Y>
+		<Visible>False</Visible>
+	</ItemList>
+
+	<Keyboard>
+		<X>130</X>
+		<Y>150</Y>
+		<Visible>False</Visible>
+	</Keyboard>
+</Layout>

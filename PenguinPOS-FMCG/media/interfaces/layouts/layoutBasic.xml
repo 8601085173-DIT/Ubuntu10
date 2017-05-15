@@ -1,0 +1,31 @@
+<Layout name="Basic">
+	<Titlebar>
+		<X>0</X>
+		<Y>0</Y>
+		<Visible>True</Visible>
+	</Titlebar>
+
+	<MainMenu>
+		<X>0</X>
+		<Y>80</Y>
+		<Visible>True</Visible>
+	</MainMenu>
+
+	<TableSelect>
+		<X>111</X>
+		<Y>70</Y>
+		<Visible>True</Visible>
+	</TableSelect>
+
+	<Keypad>
+		<X>614</X>
+		<Y>70</Y>
+		<Visible>True</Visible>
+	</Keypad>
+
+	<BottomMenu>
+		<X>111</X>
+		<Y>593</Y>
+		<Visible>True</Visible>
+	</BottomMenu>
+</Layout>

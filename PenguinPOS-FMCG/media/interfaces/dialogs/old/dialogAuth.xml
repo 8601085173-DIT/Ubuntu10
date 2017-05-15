@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<AuthDialog>
+	<x>312</x>
+	<y>234</y>
+	<background>./media/images/backgrounds/dialogs/auth.png</background>
+</AuthDialog>

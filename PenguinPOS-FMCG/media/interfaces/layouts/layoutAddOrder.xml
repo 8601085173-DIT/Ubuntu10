@@ -1,0 +1,62 @@
+<Layout name="AddOrder" title="Add Order">
+	<Titlebar>
+		<X>0</X>
+		<Y>0</Y>
+		<Visible>True</Visible>
+	</Titlebar>
+
+	<ItemPage>
+		<X>0</X>
+		<Y>74</Y>
+		<Visible>False</Visible>
+	</ItemPage>
+
+	<Logo>
+		<X>100</X>
+		<Y>124</Y>
+		<Visible>True</Visible>
+	</Logo>
+
+	<ItemDisplay>
+		<X>0</X>
+		<Y>524</Y>
+		<Visible>True</Visible>
+	</ItemDisplay>
+
+	<ItemList>
+		<X>575</X>
+		<Y>70</Y>
+		<Visible>False</Visible>
+	</ItemList>
+
+	<Keypad>
+		<X>0</X>
+		<Y>75</Y>
+		<Visible>False</Visible>
+	</Keypad>
+
+	<MainMenu>
+		<X>0</X>
+		<Y>80</Y>
+		<Visible>False</Visible>
+	</MainMenu>
+
+	<Functions>
+		<X>10</X>
+		<Y>650</Y>
+		<Visible>True</Visible>
+	</Functions>
+
+	<Menu>
+		<X>5</X>
+		<Y>596</Y>
+		<Visible>False</Visible>
+	</Menu>
+
+	<Keyboard>
+		<X>130</X>
+		<Y>150</Y>
+		<Visible>False</Visible>
+	</Keyboard>
+
+</Layout>

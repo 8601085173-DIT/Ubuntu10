@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE glade-interface SYSTEM "glade-2.0.dtd">
+<!--Generated with glade3 3.4.0 on Fri Apr 18 19:37:12 2008 
+	Version: 3.0.1
+	Date: Tue Jan 30 07:12:39 2007
+	User: data
+	Host: yoda
+-->
+<glade-interface>
+  <widget class="GtkWindow" id="window1">
+    <property name="visible">True</property>
+    <property name="title">window1</property>
+    <child>
+      <widget class="GtkFixed" id="FxdSection">
+        <property name="width_request">495</property>
+        <property name="height_request">698</property>
+        <property name="visible">True</property>
+        <child>
+          <widget class="GtkButton" id="BtnTable2">
+            <property name="width_request">95</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="label" translatable="yes">2</property>
+            <property name="use_underline">True</property>
+            <property name="response_id">0</property>
+          </widget>
+          <packing>
+            <property name="x">110</property>
+            <property name="y">63</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="GtkButton" id="BtnTable5">
+            <property name="width_request">95</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="label" translatable="yes">5</property>
+            <property name="use_underline">True</property>
+            <property name="response_id">0</property>
+          </widget>
+          <packing>
+            <property name="y">152</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="GtkButton" id="BtnTable11">
+            <property name="width_request">95</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="label" translatable="yes">11</property>
+            <property name="use_underline">True</property>
+            <property name="response_id">0</property>
+          </widget>
+          <packing>
+            <property name="x">220</property>
+            <property name="y">240</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="GtkButton" id="BtnTable13">
+            <property name="width_request">95</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="label" translatable="yes">13</property>
+            <property name="use_underline">True</property>
+            <property name="response_id">0</property>
+          </widget>
+          <packing>
+            <property name="y">328</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="GtkButton" id="BtnTable15">
+            <property name="width_request">95</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="label" translatable="yes">15</property>
+            <property name="use_underline">True</property>
+            <property name="response_id">0</property>
+          </widget>
+          <packing>
+            <property name="x">220</property>
+            <property name="y">328</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="GtkButton" id="BtnTable23">
+            <property name="width_request">95</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="label" translatable="yes">23</property>
+            <property name="use_underline">True</property>
+            <property name="response_id">0</property>
+          </widget>
+          <packing>
+            <property name="x">220</property>
+            <property name="y">504</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="GtkButton" id="BtnTable21">
+            <property name="width_request">95</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="label" translatable="yes">21</property>
+            <property name="use_underline">True</property>
+            <property name="response_id">0</property>
+          </widget>
+          <packing>
+            <property name="y">504</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="GtkButton" id="BtnTable20">
+            <property name="width_request">95</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="label" translatable="yes">20</property>
+            <property name="use_underline">True</property>
+            <property name="response_id">0</property>
+          </widget>
+          <packing>
+            <property name="x">330</property>
+            <property name="y">416</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="GtkButton" id="BtnTable18">
+            <property name="width_request">95</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="label" translatable="yes">18</property>
+            <property name="use_underline">True</property>
+            <property name="response_id">0</property>
+          </widget>
+          <packing>
+            <property name="x">110</property>
+            <property name="y">416</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="GtkButton" id="BtnTable16">
+            <property name="width_request">95</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="label" translatable="yes">16</property>
+            <property name="use_underline">True</property>
+            <property name="response_id">0</property>
+          </widget>
+          <packing>
+            <property name="x">330</property>
+            <property name="y">328</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="GtkButton" id="BtnTable6">
+            <property name="width_request">95</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="label" translatable="yes">6</property>
+            <property name="use_underline">True</property>
+            <property name="response_id">0</property>
+          </widget>
+          <packing>
+            <property name="x">110</property>
+            <property name="y">152</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="GtkButton" id="BtnTable8">
+            <property name="width_request">95</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="label" translatable="yes">8</property>
+            <property name="use_underline">True</property>
+            <property name="response_id">0</property>
+          </widget>
+          <packing>
+            <property name="x">330</property>
+            <property name="y">152</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="GtkButton" id="BtnTable10">
+            <property name="width_request">95</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="label" translatable="yes">10</property>
+            <property name="use_underline">True</property>
+            <property name="response_id">0</property>
+          </widget>
+          <packing>
+            <property name="x">110</property>
+            <property name="y">240</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="GtkButton" id="BtnTable3">
+            <property name="width_request">95</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="label" translatable="yes">3</property>
+            <property name="use_underline">True</property>
+            <property name="response_id">0</property>
+          </widget>
+          <packing>
+            <property name="x">220</property>
+            <property name="y">63</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="GtkButton" id="BtnTable7">
+            <property name="width_request">95</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="label" translatable="yes">7</property>
+            <property name="use_underline">True</property>
+            <property name="response_id">0</property>
+          </widget>
+          <packing>
+            <property name="x">220</property>
+            <property name="y">152</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="GtkButton" id="BtnTable12">
+            <property name="width_request">95</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="label" translatable="yes">12</property>
+            <property name="use_underline">True</property>
+            <property name="response_id">0</property>
+          </widget>
+          <packing>
+            <property name="x">330</property>
+            <property name="y">240</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="GtkButton" id="BtnTable17">
+            <property name="width_request">95</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="label" translatable="yes">17</property>
+            <property name="use_underline">True</property>
+            <property name="response_id">0</property>
+          </widget>
+          <packing>
+            <property name="y">416</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="GtkButton" id="BtnTable22">
+            <property name="width_request">95</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="label" translatable="yes">22</property>
+            <property name="use_underline">True</property>
+            <property name="response_id">0</property>
+          </widget>
+          <packing>
+            <property name="x">110</property>
+            <property name="y">504</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="GtkButton" id="BtnTable9">
+            <property name="width_request">95</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="label" translatable="yes">9</property>
+            <property name="use_underline">True</property>
+            <property name="response_id">0</property>
+          </widget>
+          <packing>
+            <property name="y">240</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="GtkButton" id="BtnTable14">
+            <property name="width_request">95</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="label" translatable="yes">14</property>
+            <property name="use_underline">True</property>
+            <property name="response_id">0</property>
+          </widget>
+          <packing>
+            <property name="x">110</property>
+            <property name="y">328</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="GtkButton" id="BtnTable19">
+            <property name="width_request">95</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="label" translatable="yes">19</property>
+            <property name="use_underline">True</property>
+            <property name="response_id">0</property>
+          </widget>
+          <packing>
+            <property name="x">220</property>
+            <property name="y">416</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="GtkButton" id="BtnTable24">
+            <property name="width_request">95</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="label" translatable="yes">24</property>
+            <property name="use_underline">True</property>
+            <property name="response_id">0</property>
+          </widget>
+          <packing>
+            <property name="x">330</property>
+            <property name="y">504</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="GtkButton" id="BtnSort">
+            <property name="width_request">195</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="label" translatable="yes">Sort by
+Number</property>
+            <property name="use_underline">True</property>
+            <property name="response_id">0</property>
+          </widget>
+          <packing>
+            <property name="y">613</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="GtkButton" id="BtnTable4">
+            <property name="width_request">95</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="label" translatable="yes">4</property>
+            <property name="use_underline">True</property>
+            <property name="response_id">0</property>
+          </widget>
+          <packing>
+            <property name="x">330</property>
+            <property name="y">63</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="GtkButton" id="BtnUp">
+            <property name="width_request">145</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="response_id">0</property>
+            <child>
+              <widget class="GtkImage" id="image1">
+                <property name="visible">True</property>
+                <property name="pixbuf">../../images/buttons/sections/up_arrow.png</property>
+              </widget>
+            </child>
+          </widget>
+          <packing>
+            <property name="x">200</property>
+            <property name="y">613</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="GtkButton" id="BtnDown">
+            <property name="width_request">145</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="response_id">0</property>
+            <child>
+              <widget class="GtkImage" id="image2">
+                <property name="visible">True</property>
+                <property name="pixbuf">../../images/buttons/sections/down_arrow.png</property>
+              </widget>
+            </child>
+          </widget>
+          <packing>
+            <property name="x">350</property>
+            <property name="y">613</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="GtkButton" id="BtnTable1">
+            <property name="width_request">95</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="label" translatable="yes">1</property>
+            <property name="use_underline">True</property>
+            <property name="response_id">0</property>
+          </widget>
+          <packing>
+            <property name="y">63</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="GtkLabel" id="LblTitle">
+            <property name="width_request">495</property>
+            <property name="height_request">53</property>
+            <property name="visible">True</property>
+            <property name="label" translatable="yes">&lt;b&gt;Title&lt;/b&gt;</property>
+            <property name="use_markup">True</property>
+          </widget>
+        </child>
+      </widget>
+    </child>
+  </widget>
+</glade-interface>

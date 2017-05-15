@@ -1,0 +1,25 @@
+ =*=*=*=*=*=*=*=*=*=*=
+        SALES
+From
+^^DATE_TIME^^
+---------------------
+
+CLOSED TABLES
+~~~~~~~~~~~~~
+Total:                   R ^^TOTAL_CLOSED_INC^^
+
+(VAT: R ^^TOTAL_CLOSED_VAT^^,
+ Exclusive: R ^^TOTAL_CLOSED_EXC^^)
+
+
+OPEN TABLES
+~~~~~~~~~~~
+Total:                   R ^^TOTAL_OPEN_INC^^
+
+(VAT: R ^^TOTAL_OPEN_VAT^^,
+ Exclusive: R TOTAL_OPEN_EXC^^)
+
+TOTAL: ^^TOTAL^^
+
+---------------------------------------
+^^CUTCMD^^

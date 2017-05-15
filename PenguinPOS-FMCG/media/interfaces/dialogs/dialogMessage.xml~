@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<ErrorDialog>
+	<x>312</x>
+	<y>234</y>
+	<width>400</width>
+	<background>./media/images/backgrounds/dialogs/alert.png</background>
+</ErrorDialog>

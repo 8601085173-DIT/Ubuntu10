@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glade-interface>
+  <!-- interface-requires gtk+ 2.6 -->
+  <!-- interface-naming-policy toplevel-contextual -->
+  <widget class="GtkWindow" id="window1">
+    <property name="visible">True</property>
+    <property name="title" translatable="yes">window1</property>
+    <child>
+      <widget class="GtkFixed" id="FxdSection">
+        <property name="width_request">568</property>
+        <property name="height_request">528</property>
+        <property name="visible">True</property>
+        <child>
+          <widget class="GtkEntry" id="EntRef">
+            <property name="width_request">180</property>
+            <property name="height_request">27</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="invisible_char">●</property>
+          </widget>
+          <packing>
+            <property name="x">152</property>
+            <property name="y">110</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="GtkLabel" id="label41">
+            <property name="width_request">140</property>
+            <property name="height_request">27</property>
+            <property name="visible">True</property>
+            <property name="xalign">0</property>
+            <property name="label" translatable="yes">Reference Number</property>
+          </widget>
+          <packing>
+            <property name="x">8</property>
+            <property name="y">110</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="GtkLabel" id="Heading">
+            <property name="width_request">300</property>
+            <property name="height_request">30</property>
+            <property name="visible">True</property>
+            <property name="label" translatable="yes">&lt;b&gt;Cash Payout&lt;/b&gt;</property>
+            <property name="use_markup">True</property>
+          </widget>
+          <packing>
+            <property name="x">8</property>
+            <property name="y">8</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="GtkLabel" id="label42">
+            <property name="width_request">140</property>
+            <property name="height_request">27</property>
+            <property name="visible">True</property>
+            <property name="xalign">0</property>
+            <property name="label" translatable="yes">Cash Value</property>
+          </widget>
+          <packing>
+            <property name="x">8</property>
+            <property name="y">142</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="GtkButton" id="BtnProcess">
+            <property name="label" translatable="yes">Process Cash Payout</property>
+            <property name="width_request">304</property>
+            <property name="height_request">29</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">False</property>
+            <property name="use_underline">True</property>
+          </widget>
+          <packing>
+            <property name="x">8</property>
+            <property name="y">182</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="GtkButton" id="BtnCashValue">
+            <property name="label" translatable="yes">R 0.00</property>
+            <property name="width_request">180</property>
+            <property name="height_request">27</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">False</property>
+            <property name="use_underline">True</property>
+          </widget>
+          <packing>
+            <property name="x">152</property>
+            <property name="y">142</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="GtkLabel" id="label1">
+            <property name="width_request">140</property>
+            <property name="height_request">27</property>
+            <property name="visible">True</property>
+            <property name="xalign">0</property>
+            <property name="label" translatable="yes">Payout Reason</property>
+          </widget>
+          <packing>
+            <property name="x">8</property>
+            <property name="y">78</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="GtkComboBox" id="cmbPayoutReasons">
+            <property name="width_request">180</property>
+            <property name="height_request">27</property>
+            <property name="visible">True</property>
+          </widget>
+          <packing>
+            <property name="x">152</property>
+            <property name="y">78</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="GtkLabel" id="label2">
+            <property name="width_request">250</property>
+            <property name="height_request">27</property>
+            <property name="visible">True</property>
+            <property name="xalign">0</property>
+            <property name="label" translatable="yes">Payout Benficiary</property>
+          </widget>
+          <packing>
+            <property name="x">8</property>
+            <property name="y">46</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="GtkButton" id="BtnKeyboard">
+            <property name="width_request">100</property>
+            <property name="height_request">61</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+            <child>
+              <widget class="GtkImage" id="image1">
+                <property name="visible">True</property>
+                <property name="pixbuf">../../images/buttons/sections/onscreen_keyboard.jpg</property>
+              </widget>
+            </child>
+          </widget>
+          <packing>
+            <property name="x">355</property>
+            <property name="y">109</property>
+          </packing>
+        </child>
+      </widget>
+    </child>
+  </widget>
+</glade-interface>

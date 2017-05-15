@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE glade-interface SYSTEM "glade-2.0.dtd">
+<glade-interface>
+  <widget class="GtkWindow" id="window1">
+    <property name="visible">True</property>
+    <property name="title">window1</property>
+    <child>
+      <widget class="GtkFixed" id="FxdSection">
+        <property name="visible">True</property>
+        <child>
+          <widget class="GtkLabel" id="LblItemPageDisplay2">
+            <property name="width_request">150</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+          </widget>
+          <packing>
+            <property name="x">550</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="GtkLabel" id="LblItemPageDisplay">
+            <property name="width_request">550</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+          </widget>
+        </child>
+      </widget>
+    </child>
+  </widget>
+</glade-interface>

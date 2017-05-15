@@ -1,0 +1,28 @@
+^^FONT_RESET^^^^FONT_7X9^^______________________________________________________
+^^FONT_HEADER^^^^COMPANY^^^^FONT_RESET^^
+^^FONT_7X9_W^^^^BRANCH^^
+^^FONT_RESET^^^^FONT_7X9^^______________________________________________________
+Date : ^^DATE^^ ^^TIME^^
+Tax Invoice No: ^^INVOICENUM^^
+Vat No.       : ^^VATNUM^^
+Tel  : ^^TEL^^  Fax     : ^^FAX^^
+Till : ^^TABLE^^  Cashier : ^^WAITER^^
+^^FONT_RESET^^^^FONT_7X9^^______________________________________________________
+^^FONT_7X9_W^^COPY OF INVOICE^^FONT_7X9^^
+^^FONT_RESET^^^^FONT_7X9^^______________________________________________________
+ITEM                          QTY              PRICE
+^^FONT_RESET^^^^FONT_7X9^^______________________________________________________
+^^ITEMS^^
+^^FONT_RESET^^^^FONT_7X9^^______________________________________________________
+^^FONT_7X9_W^^VAT :
+^^FONT_RESET^^^^FONT_7X9^^^^VAT1_INCLUDED^^
+^^VAT2_INCLUDED^^
+^^FONT_RESET^^^^FONT_7X9^^______________________________________________________
+^^FONT_RESET^^^^FONT_7X9_W^^Total:        R ^^TOTAL^^
+^^FONT_RESET^^^^FONT_7X9^^______________________________________________________
+^^FONT_RESET^^^^FONT_7X9_W^^Tendered :
+^^FONT_RESET^^^^FONT_7X9^^^^TENDERTYPE^^
+^^FONT_RESET^^^^FONT_7X9^^______________________________________________________
+                                  Have a Nice Day
+                                     Drive Safely
+^^FEED_10^^^^CUT^^

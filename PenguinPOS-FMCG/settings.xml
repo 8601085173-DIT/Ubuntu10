@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<Settings>
+	<Log>
+                <!-- Log level (None, Info, Debug, Verbose, VeryVerbose) -->
+		<Level>None</Level>
+                <!-- Sql Log Level (None,Important,All) -->
+                <Sql>None</Sql>
+                <!-- File (Path/To/File),none or date -->
+                <File>None</File>
+	</Log>
+
+	<Connections>
+		<Default>DB0</Default>
+		<DB0>
+			<Description>Local Host</Description>
+			<Address>127.0.0.1</Address>
+			<Username>PenguinPOS</Username>
+			<Password>penpos</Password>
+			<Data>Terminal_FMCG</Data>
+		</DB0>
+		<DB1>
+			<Description>Customer</Description>
+			<Address>127.0.0.1</Address>
+			<Username>PenguinPOS</Username>
+			<Password>penpos</Password>
+			<Data>LIVE_BackOffice</Data>
+		</DB1>
+	</Connections>
+	<LoyaltyCards>
+		<Prefix>30</Prefix>
+		<NumberLength>13</NumberLength>
+		<Active>Yes</Active> <!-- Yes or No -->
+	</LoyaltyCards>
+		
+	<FingerPrinting>Disabled</FingerPrinting>   <!-- Enabled/Disbaled -->
+	
+  	<SystemType>POS</SystemType>  <!-- DO NOT CHANGE -->  
+
+        <PoleDisplay>
+                <ComPort>none</ComPort> <!-- None or com port --><!-- /dev/ttyUSB0-->
+        </PoleDisplay>
+
+        <Rounding>
+		<Active>Yes</Active>  <!-- Active YES/NO -->
+		<RoundTo>10</RoundTo><!-- in cents -->
+	</Rounding>
+
+	<UsingVouchers>Disabled</UsingVouchers>  <!-- Enabled/Disbaled -->
+	<ExtendedKeys>Disabled</ExtendedKeys> <!-- Enabled/Disbaled -->
+	<DefaultTender>cash</DefaultTender> <!-- Valid values is 'cash','card','none' -->
+	<PromptToMenu>No</PromptToMenu> <!-- Valid values is 'yes' or 'no' -->
+	<RedirectToNormalSale>yes</RedirectToNormalSale> <!-- Valid values is 'yes' or 'no' -->
+	<CanCreateCustomers>no</CanCreateCustomers> <!-- Valid values is 'yes' or 'no' -->
+	<PrintCreditSlip>yes</PrintCreditSlip> <!-- Valid values is 'yes' or 'no' -->
+	<PrintNormalSlip>yes</PrintNormalSlip> <!-- Valid values is 'yes' or 'no' -->
+
+        <CashDrop>
+           <MaxInTill>3000</MaxInTill>
+        </CashDrop>
+       
+	<Logins>
+		<Login method="PasswordLogin" disabled="0"> <!-- Do Not Modify -->
+			</Login>
+	</Logins>
+
+</Settings>
+

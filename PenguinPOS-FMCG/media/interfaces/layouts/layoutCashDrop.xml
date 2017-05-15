@@ -1,0 +1,26 @@
+<Layout name="CashDrop" title="Cash Drop">
+	<Titlebar>
+		<X>0</X>
+		<Y>0</Y>
+		<Visible>True</Visible>
+	</Titlebar>
+
+	<MainMenu>
+		<X>0</X>
+		<Y>80</Y>
+		<Visible>True</Visible>
+	</MainMenu>
+
+	<CashDrop>
+		<X>121</X>
+		<Y>70</Y>
+		<Visible>True</Visible>
+	</CashDrop>
+
+	<Keypad>
+		<X>614</X>
+		<Y>70</Y>
+		<Visible>False</Visible>
+	</Keypad>
+
+</Layout>

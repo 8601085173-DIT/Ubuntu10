@@ -1,0 +1,24 @@
+<Layout name="PrintBill" title="Print Bill">
+	<Titlebar>
+		<X>0</X>
+		<Y>0</Y>
+		<Visible>True</Visible>
+	</Titlebar>
+
+	<MainMenu>
+		<X>0</X>
+		<Y>70</Y>
+		<Visible>True</Visible>
+	</MainMenu>
+
+	<TableSelect>
+		<X>111</X>
+		<Y>70</Y>
+	</TableSelect>
+
+	<ItemList>
+		<X>724</X>
+		<Y>133</Y>
+		<Visible>True</Visible>
+	</ItemList>
+</Layout>

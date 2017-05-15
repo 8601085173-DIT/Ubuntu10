@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<PromptDialog>
+	<x>614</x>
+	<y>72</y>
+	<background>media/images/backgrounds/dialogs/keypad.png</background>
+</PromptDialog>

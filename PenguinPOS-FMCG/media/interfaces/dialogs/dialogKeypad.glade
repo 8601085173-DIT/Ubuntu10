@@ -1,0 +1,521 @@
+<?xml version="1.0" standalone="no"?> <!--*- mode: xml -*-->
+<!DOCTYPE glade-interface SYSTEM "http://glade.gnome.org/glade-2.0.dtd">
+
+<glade-interface>
+
+<widget class="GtkDialog" id="DlgBase">
+  <property name="width_request">410</property>
+  <property name="height_request">523</property>
+  <property name="visible">False</property>
+  <property name="title" translatable="yes">Keypad</property>
+  <property name="type">GTK_WINDOW_TOPLEVEL</property>
+  <property name="window_position">GTK_WIN_POS_CENTER_ON_PARENT</property>
+  <property name="modal">True</property>
+  <property name="resizable">True</property>
+  <property name="destroy_with_parent">False</property>
+  <property name="decorated">False</property>
+  <property name="skip_taskbar_hint">False</property>
+  <property name="skip_pager_hint">False</property>
+  <property name="type_hint">GDK_WINDOW_TYPE_HINT_DIALOG</property>
+  <property name="gravity">GDK_GRAVITY_CENTER</property>
+  <property name="focus_on_map">True</property>
+  <property name="urgency_hint">False</property>
+  <property name="has_separator">True</property>
+
+  <child internal-child="vbox">
+    <widget class="GtkVBox" id="dialog-vbox1">
+      <property name="width_request">410</property>
+      <property name="height_request">523</property>
+      <property name="visible">True</property>
+      <property name="homogeneous">False</property>
+      <property name="spacing">0</property>
+
+      <child internal-child="action_area">
+	<widget class="GtkHButtonBox" id="dialog-action_area1">
+	  <property name="visible">True</property>
+	  <property name="layout_style">GTK_BUTTONBOX_END</property>
+	</widget>
+	<packing>
+	  <property name="padding">0</property>
+	  <property name="expand">False</property>
+	  <property name="fill">True</property>
+	  <property name="pack_type">GTK_PACK_END</property>
+	</packing>
+      </child>
+
+      <child>
+	<widget class="GtkFixed" id="FxdSection">
+	  <property name="width_request">410</property>
+	  <property name="height_request">523</property>
+	  <property name="visible">True</property>
+
+	  <child>
+	    <widget class="GtkImage" id="ImgBackground">
+	      <property name="width_request">410</property>
+	      <property name="height_request">523</property>
+	      <property name="visible">True</property>
+	      <property name="pixbuf">../../images/backgrounds/dialogs/keypad.png</property>
+	      <property name="xalign">0.5</property>
+	      <property name="yalign">0.5</property>
+	      <property name="xpad">0</property>
+	      <property name="ypad">0</property>
+	    </widget>
+	    <packing>
+	      <property name="x">0</property>
+	      <property name="y">0</property>
+	    </packing>
+	  </child>
+
+	  <child>
+	    <widget class="GtkLabel" id="LblDisplay">
+	      <property name="width_request">328</property>
+	      <property name="height_request">56</property>
+	      <property name="visible">True</property>
+	      <property name="label" translatable="yes">Keypad Display</property>
+	      <property name="use_underline">False</property>
+	      <property name="use_markup">False</property>
+	      <property name="justify">GTK_JUSTIFY_LEFT</property>
+	      <property name="wrap">False</property>
+	      <property name="selectable">False</property>
+	      <property name="xalign">1</property>
+	      <property name="yalign">0.5</property>
+	      <property name="xpad">15</property>
+	      <property name="ypad">0</property>
+	      <property name="ellipsize">PANGO_ELLIPSIZE_NONE</property>
+	      <property name="width_chars">-1</property>
+	      <property name="single_line_mode">False</property>
+	      <property name="angle">0</property>
+	    </widget>
+	    <packing>
+	      <property name="x">40</property>
+	      <property name="y">96</property>
+	    </packing>
+	  </child>
+
+	  <child>
+	    <widget class="GtkButton" id="BtnCancel">
+	      <property name="width_request">100</property>
+	      <property name="height_request">160</property>
+	      <property name="visible">True</property>
+	      <property name="can_focus">True</property>
+	      <property name="relief">GTK_RELIEF_NORMAL</property>
+	      <property name="focus_on_click">True</property>
+
+	      <child>
+		<widget class="GtkImage" id="image16">
+		  <property name="visible">True</property>
+		  <property name="pixbuf">../../images/buttons/dialogs/cancel.png</property>
+		  <property name="xalign">0.5</property>
+		  <property name="yalign">0.5</property>
+		  <property name="xpad">0</property>
+		  <property name="ypad">0</property>
+		</widget>
+	      </child>
+	    </widget>
+	    <packing>
+	      <property name="x">276</property>
+	      <property name="y">168</property>
+	    </packing>
+	  </child>
+
+	  <child>
+	    <widget class="GtkButton" id="BtnOK">
+	      <property name="width_request">100</property>
+	      <property name="height_request">160</property>
+	      <property name="visible">True</property>
+	      <property name="can_focus">True</property>
+	      <property name="relief">GTK_RELIEF_NORMAL</property>
+	      <property name="focus_on_click">True</property>
+
+	      <child>
+		<widget class="GtkImage" id="image17">
+		  <property name="visible">True</property>
+		  <property name="pixbuf">../../images/buttons/dialogs/ok.png</property>
+		  <property name="xalign">0.5</property>
+		  <property name="yalign">0.5</property>
+		  <property name="xpad">0</property>
+		  <property name="ypad">0</property>
+		</widget>
+	      </child>
+	    </widget>
+	    <packing>
+	      <property name="x">276</property>
+	      <property name="y">328</property>
+	    </packing>
+	  </child>
+
+	  <child>
+	    <widget class="GtkButton" id="BtnDot">
+	      <property name="width_request">80</property>
+	      <property name="height_request">80</property>
+	      <property name="visible">True</property>
+	      <property name="can_focus">True</property>
+	      <property name="relief">GTK_RELIEF_NORMAL</property>
+	      <property name="focus_on_click">True</property>
+
+	      <child>
+		<widget class="GtkImage" id="image18">
+		  <property name="visible">True</property>
+		  <property name="pixbuf">../../images/buttons/dialogs/dot.png</property>
+		  <property name="xalign">0.5</property>
+		  <property name="yalign">0.5</property>
+		  <property name="xpad">0</property>
+		  <property name="ypad">0</property>
+		</widget>
+	      </child>
+	    </widget>
+	    <packing>
+	      <property name="x">116</property>
+	      <property name="y">408</property>
+	    </packing>
+	  </child>
+
+	  <child>
+	    <widget class="GtkButton" id="BtnNum0">
+	      <property name="width_request">80</property>
+	      <property name="height_request">80</property>
+	      <property name="visible">True</property>
+	      <property name="can_focus">True</property>
+	      <property name="relief">GTK_RELIEF_NORMAL</property>
+	      <property name="focus_on_click">True</property>
+
+	      <child>
+		<widget class="GtkImage" id="image19">
+		  <property name="visible">True</property>
+		  <property name="pixbuf">../../images/buttons/dialogs/0.png</property>
+		  <property name="xalign">0.5</property>
+		  <property name="yalign">0.5</property>
+		  <property name="xpad">0</property>
+		  <property name="ypad">0</property>
+		</widget>
+	      </child>
+	    </widget>
+	    <packing>
+	      <property name="x">36</property>
+	      <property name="y">408</property>
+	    </packing>
+	  </child>
+
+	  <child>
+	    <widget class="GtkButton" id="BtnClear">
+	      <property name="width_request">80</property>
+	      <property name="height_request">80</property>
+	      <property name="visible">True</property>
+	      <property name="can_focus">True</property>
+	      <property name="relief">GTK_RELIEF_NORMAL</property>
+	      <property name="focus_on_click">True</property>
+
+	      <child>
+		<widget class="GtkImage" id="image20">
+		  <property name="visible">True</property>
+		  <property name="pixbuf">../../images/buttons/dialogs/c.png</property>
+		  <property name="xalign">0.5</property>
+		  <property name="yalign">0.5</property>
+		  <property name="xpad">0</property>
+		  <property name="ypad">0</property>
+		</widget>
+	      </child>
+	    </widget>
+	    <packing>
+	      <property name="x">196</property>
+	      <property name="y">408</property>
+	    </packing>
+	  </child>
+
+	  <child>
+	    <widget class="GtkButton" id="BtnNum2">
+	      <property name="width_request">80</property>
+	      <property name="height_request">80</property>
+	      <property name="visible">True</property>
+	      <property name="can_focus">True</property>
+	      <property name="relief">GTK_RELIEF_NORMAL</property>
+	      <property name="focus_on_click">True</property>
+
+	      <child>
+		<widget class="GtkImage" id="image21">
+		  <property name="visible">True</property>
+		  <property name="pixbuf">../../images/buttons/dialogs/2.png</property>
+		  <property name="xalign">0.5</property>
+		  <property name="yalign">0.5</property>
+		  <property name="xpad">0</property>
+		  <property name="ypad">0</property>
+		</widget>
+	      </child>
+	    </widget>
+	    <packing>
+	      <property name="x">116</property>
+	      <property name="y">328</property>
+	    </packing>
+	  </child>
+
+	  <child>
+	    <widget class="GtkButton" id="BtnNum1">
+	      <property name="width_request">80</property>
+	      <property name="height_request">80</property>
+	      <property name="visible">True</property>
+	      <property name="can_focus">True</property>
+	      <property name="relief">GTK_RELIEF_NORMAL</property>
+	      <property name="focus_on_click">True</property>
+
+	      <child>
+		<widget class="GtkImage" id="image22">
+		  <property name="visible">True</property>
+		  <property name="pixbuf">../../images/buttons/dialogs/1.png</property>
+		  <property name="xalign">0.5</property>
+		  <property name="yalign">0.5</property>
+		  <property name="xpad">0</property>
+		  <property name="ypad">0</property>
+		</widget>
+	      </child>
+	    </widget>
+	    <packing>
+	      <property name="x">36</property>
+	      <property name="y">328</property>
+	    </packing>
+	  </child>
+
+	  <child>
+	    <widget class="GtkButton" id="BtnNum3">
+	      <property name="width_request">80</property>
+	      <property name="height_request">80</property>
+	      <property name="visible">True</property>
+	      <property name="can_focus">True</property>
+	      <property name="relief">GTK_RELIEF_NORMAL</property>
+	      <property name="focus_on_click">True</property>
+
+	      <child>
+		<widget class="GtkImage" id="image23">
+		  <property name="visible">True</property>
+		  <property name="pixbuf">../../images/buttons/dialogs/3.png</property>
+		  <property name="xalign">0.5</property>
+		  <property name="yalign">0.5</property>
+		  <property name="xpad">0</property>
+		  <property name="ypad">0</property>
+		</widget>
+	      </child>
+	    </widget>
+	    <packing>
+	      <property name="x">196</property>
+	      <property name="y">328</property>
+	    </packing>
+	  </child>
+
+	  <child>
+	    <widget class="GtkButton" id="BtnNum6">
+	      <property name="width_request">80</property>
+	      <property name="height_request">80</property>
+	      <property name="visible">True</property>
+	      <property name="can_focus">True</property>
+	      <property name="relief">GTK_RELIEF_NORMAL</property>
+	      <property name="focus_on_click">True</property>
+
+	      <child>
+		<widget class="GtkImage" id="image24">
+		  <property name="visible">True</property>
+		  <property name="pixbuf">../../images/buttons/dialogs/6.png</property>
+		  <property name="xalign">0.5</property>
+		  <property name="yalign">0.5</property>
+		  <property name="xpad">0</property>
+		  <property name="ypad">0</property>
+		</widget>
+	      </child>
+	    </widget>
+	    <packing>
+	      <property name="x">196</property>
+	      <property name="y">248</property>
+	    </packing>
+	  </child>
+
+	  <child>
+	    <widget class="GtkButton" id="BtnNum5">
+	      <property name="width_request">80</property>
+	      <property name="height_request">80</property>
+	      <property name="visible">True</property>
+	      <property name="can_focus">True</property>
+	      <property name="relief">GTK_RELIEF_NORMAL</property>
+	      <property name="focus_on_click">True</property>
+
+	      <child>
+		<widget class="GtkImage" id="image25">
+		  <property name="visible">True</property>
+		  <property name="pixbuf">../../images/buttons/dialogs/5.png</property>
+		  <property name="xalign">0.5</property>
+		  <property name="yalign">0.5</property>
+		  <property name="xpad">0</property>
+		  <property name="ypad">0</property>
+		</widget>
+	      </child>
+	    </widget>
+	    <packing>
+	      <property name="x">116</property>
+	      <property name="y">248</property>
+	    </packing>
+	  </child>
+
+	  <child>
+	    <widget class="GtkButton" id="BtnNum4">
+	      <property name="width_request">80</property>
+	      <property name="height_request">80</property>
+	      <property name="visible">True</property>
+	      <property name="can_focus">True</property>
+	      <property name="relief">GTK_RELIEF_NORMAL</property>
+	      <property name="focus_on_click">True</property>
+
+	      <child>
+		<widget class="GtkImage" id="image26">
+		  <property name="visible">True</property>
+		  <property name="pixbuf">../../images/buttons/dialogs/4.png</property>
+		  <property name="xalign">0.5</property>
+		  <property name="yalign">0.5</property>
+		  <property name="xpad">0</property>
+		  <property name="ypad">0</property>
+		</widget>
+	      </child>
+	    </widget>
+	    <packing>
+	      <property name="x">36</property>
+	      <property name="y">248</property>
+	    </packing>
+	  </child>
+
+	  <child>
+	    <widget class="GtkButton" id="BtnNum9">
+	      <property name="width_request">80</property>
+	      <property name="height_request">80</property>
+	      <property name="visible">True</property>
+	      <property name="can_focus">True</property>
+	      <property name="relief">GTK_RELIEF_NORMAL</property>
+	      <property name="focus_on_click">True</property>
+
+	      <child>
+		<widget class="GtkImage" id="image27">
+		  <property name="visible">True</property>
+		  <property name="pixbuf">../../images/buttons/dialogs/9.png</property>
+		  <property name="xalign">0.5</property>
+		  <property name="yalign">0.5</property>
+		  <property name="xpad">0</property>
+		  <property name="ypad">0</property>
+		</widget>
+	      </child>
+	    </widget>
+	    <packing>
+	      <property name="x">196</property>
+	      <property name="y">168</property>
+	    </packing>
+	  </child>
+
+	  <child>
+	    <widget class="GtkButton" id="BtnNum8">
+	      <property name="width_request">80</property>
+	      <property name="height_request">80</property>
+	      <property name="visible">True</property>
+	      <property name="can_focus">True</property>
+	      <property name="relief">GTK_RELIEF_NORMAL</property>
+	      <property name="focus_on_click">True</property>
+
+	      <child>
+		<widget class="GtkImage" id="image28">
+		  <property name="visible">True</property>
+		  <property name="pixbuf">../../images/buttons/dialogs/8.png</property>
+		  <property name="xalign">0.5</property>
+		  <property name="yalign">0.5</property>
+		  <property name="xpad">0</property>
+		  <property name="ypad">0</property>
+		</widget>
+	      </child>
+	    </widget>
+	    <packing>
+	      <property name="x">116</property>
+	      <property name="y">168</property>
+	    </packing>
+	  </child>
+
+	  <child>
+	    <widget class="GtkButton" id="BtnNum7">
+	      <property name="width_request">80</property>
+	      <property name="height_request">80</property>
+	      <property name="visible">True</property>
+	      <property name="can_focus">True</property>
+	      <property name="relief">GTK_RELIEF_NORMAL</property>
+	      <property name="focus_on_click">True</property>
+
+	      <child>
+		<widget class="GtkImage" id="image29">
+		  <property name="visible">True</property>
+		  <property name="pixbuf">../../images/buttons/dialogs/7.png</property>
+		  <property name="xalign">0.5</property>
+		  <property name="yalign">0.5</property>
+		  <property name="xpad">0</property>
+		  <property name="ypad">0</property>
+		</widget>
+	      </child>
+	    </widget>
+	    <packing>
+	      <property name="x">36</property>
+	      <property name="y">168</property>
+	    </packing>
+	  </child>
+
+	  <child>
+	    <widget class="GtkLabel" id="LblMessage">
+	      <property name="width_request">344</property>
+	      <property name="height_request">56</property>
+	      <property name="visible">True</property>
+	      <property name="label" translatable="yes">Message</property>
+	      <property name="use_underline">False</property>
+	      <property name="use_markup">False</property>
+	      <property name="justify">GTK_JUSTIFY_LEFT</property>
+	      <property name="wrap">False</property>
+	      <property name="selectable">False</property>
+	      <property name="xalign">0</property>
+	      <property name="yalign">0.5</property>
+	      <property name="xpad">0</property>
+	      <property name="ypad">0</property>
+	      <property name="ellipsize">PANGO_ELLIPSIZE_NONE</property>
+	      <property name="width_chars">-1</property>
+	      <property name="single_line_mode">False</property>
+	      <property name="angle">0</property>
+	    </widget>
+	    <packing>
+	      <property name="x">32</property>
+	      <property name="y">24</property>
+	    </packing>
+	  </child>
+
+	  <child>
+	    <widget class="GtkLabel" id="LblTitle">
+	      <property name="width_request">344</property>
+	      <property name="height_request">56</property>
+	      <property name="visible">True</property>
+	      <property name="label" translatable="yes"></property>
+	      <property name="use_underline">False</property>
+	      <property name="use_markup">False</property>
+	      <property name="justify">GTK_JUSTIFY_LEFT</property>
+	      <property name="wrap">False</property>
+	      <property name="selectable">False</property>
+	      <property name="xalign">0</property>
+	      <property name="yalign">0.5</property>
+	      <property name="xpad">0</property>
+	      <property name="ypad">0</property>
+	      <property name="ellipsize">PANGO_ELLIPSIZE_NONE</property>
+	      <property name="width_chars">-1</property>
+	      <property name="single_line_mode">False</property>
+	      <property name="angle">0</property>
+	    </widget>
+	    <packing>
+	      <property name="x">32</property>
+	      <property name="y">24</property>
+	    </packing>
+	  </child>
+	</widget>
+	<packing>
+	  <property name="padding">0</property>
+	  <property name="expand">True</property>
+	  <property name="fill">True</property>
+	</packing>
+      </child>
+    </widget>
+  </child>
+</widget>
+
+</glade-interface>

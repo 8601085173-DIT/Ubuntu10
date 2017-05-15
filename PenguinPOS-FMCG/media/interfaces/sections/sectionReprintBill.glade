@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE glade-interface SYSTEM "glade-2.0.dtd">
+<!--Generated with glade3 3.4.0 on Mon Mar 10 15:38:57 2008 
+	Version: 3.0.1
+	Date: Wed Oct 25 02:13:06 2006
+	User: data
+	Host: yoda
+-->
+<glade-interface>
+  <widget class="GtkWindow" id="window1">
+    <property name="visible">True</property>
+    <property name="title">window1</property>
+    <child>
+      <widget class="GtkFixed" id="FxdSection">
+        <property name="width_request">408</property>
+        <property name="height_request">528</property>
+        <property name="visible">True</property>
+        <child>
+          <widget class="GtkButton" id="BtnCancel">
+            <property name="width_request">136</property>
+            <property name="height_request">128</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="response_id">0</property>
+            <child>
+              <widget class="GtkImage" id="image7">
+                <property name="visible">True</property>
+                <property name="pixbuf">../../images/buttons/sections/cancel_big.png</property>
+              </widget>
+            </child>            
+          </widget>
+          <packing>
+            <property name="x">272</property>
+            <property name="y">400</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="GtkButton" id="BtnPrintBill">
+            <property name="width_request">136</property>
+            <property name="height_request">128</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="response_id">0</property>
+            <child>
+              <widget class="GtkImage" id="image6">
+                <property name="visible">True</property>
+                <property name="pixbuf">../../images/buttons/sections/printbill.png</property>
+              </widget>
+            </child>
+          </widget>
+          <packing>
+            <property name="y">400</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="GtkButton" id="BtnRetender">
+            <property name="width_request">136</property>
+            <property name="height_request">128</property>
+            <property name="visible">True</property>
+            <property name="label" translatable="yes">Retender</property>
+            <property name="response_id">0</property>
+          </widget>
+          <packing>
+            <property name="x">136</property>
+            <property name="y">400</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="GtkLabel" id="label1">
+            <property name="width_request">100</property>
+            <property name="height_request">40</property>
+            <property name="visible">True</property>
+            <property name="events">GDK_POINTER_MOTION_MASK | GDK_POINTER_MOTION_HINT_MASK | GDK_BUTTON_PRESS_MASK | GDK_BUTTON_RELEASE_MASK</property>
+            <property name="label" translatable="yes">Tables:</property>
+          </widget>
+        </child>
+        <child>
+          <widget class="GtkScrolledWindow" id="scrolledwindow1">
+            <property name="width_request">408</property>
+            <property name="height_request">360</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="events">GDK_POINTER_MOTION_MASK | GDK_POINTER_MOTION_HINT_MASK | GDK_BUTTON_PRESS_MASK | GDK_BUTTON_RELEASE_MASK</property>
+            <property name="hscrollbar_policy">GTK_POLICY_AUTOMATIC</property>
+            <property name="vscrollbar_policy">GTK_POLICY_AUTOMATIC</property>
+            <child>
+              <widget class="GtkTreeView" id="TVwTables">
+                <property name="width_request">408</property>
+                <property name="height_request">360</property>
+                <property name="visible">True</property>
+                <property name="can_focus">True</property>
+                <property name="events">GDK_POINTER_MOTION_MASK | GDK_POINTER_MOTION_HINT_MASK | GDK_BUTTON_PRESS_MASK | GDK_BUTTON_RELEASE_MASK</property>
+                <property name="headers_clickable">True</property>
+                <property name="rules_hint">True</property>
+              </widget>
+            </child>
+          </widget>
+          <packing>
+            <property name="y">40</property>
+          </packing>
+        </child>
+      </widget>
+    </child>
+  </widget>
+</glade-interface>

@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<ChoiceDialog>
+	<x>312</x>
+	<y>234</y>
+	<background>media/images/backgrounds/yesno.png</background>
+</ChoiceDialog>
